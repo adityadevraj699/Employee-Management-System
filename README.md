@@ -23,7 +23,7 @@ This is an Employee Management System built with **React** and **Vite**. It incl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/adityadevraj699/EMS.git
+   git clone https://github.com/adityadevraj699/Employee-Management-System.git
    cd EMS
    ```
 
