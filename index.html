@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management Application</title>
+    <style>
+      /* Style for the loading container */
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+      }
+
+      /* Loading animation (rotating circle) */
+      .loading-circle {
+        border: 5px solid #f3f3f3; /* Light gray background */
+        border-top: 5px solid #db9034; /* Blue rotating border */
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        animation: spin 1s linear infinite;
+      }
+
+      /* Keyframes for the spin animation */
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Optional: Customize loading text */
+      .loading-text {
+        margin-top: 15px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        font-size: 18px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
